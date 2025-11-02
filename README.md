@@ -1,4 +1,4 @@
-# Laboratorio-4
+|  # Laboratorio-4
 # Señales electromiográficas EMG
 # TABLA DE CONTENIDOS
 1. Objetivos y metodología del experimento.
@@ -13,6 +13,13 @@
 La presente práctica tiene como objetivo aplicar el filtrado de señales continuas para procesar una señal electromiográfica (EMG). Además, se busca detectar la aparición de fatiga muscular meidante el análisis espectral de contracciones musculares individuales y con ello, compara el comportamiento con una señal emulada (capturada por un generador de señales biológicas) en terminos de frecuencia media y mediana. Todo eso, empleando herramientas computacionales para el procesamiento, segmentación y análisis de señales biomédicas.
 
 # 2. Marco conceptual.
+
+**Electromiografía.**
+
+<img width="350" height="180" alt="image" src="https://github.com/user-attachments/assets/b1c75e85-1172-4f78-b4b0-8dfd5522944b" />
+
+La electromiografía (EMG) es  donde se eun procedimiento donde se evalua la salud muscular y se estudian los nervios que controlan los músculos, mediante el registro de su actividad eléctrica. A través de la señal electromiográfica, se pueden diagnosticar trastornos musculares y nerviosos, como disfunción muscular.
+
 # 3. Diagramas de flujo.
 **3.1. Diagrama de flujo - Parte A:Captura de la señal emulada**
 Se adquirio una señal EMG emulada, en primera instancia se confiduró el generador de señales para así adquirir la señal y  simular cinco contracciones musculares. 
