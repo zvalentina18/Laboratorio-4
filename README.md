@@ -22,7 +22,7 @@ La electromiografía (EMG) es un procedimiento donde se evalua la salud muscular
 
 Además de esto, se puede visualizar en la señal EMG cuando un músculo entra en fátiga, donde disminuye la capacidad del musculo para generar una fuerza. Esto se puede visualizar en la señal en el aumento de la amplitud, ya que el sistema nervioso "recluta" más unidades motoras para mantener la fuerza ejercida. Del mismo modo, evaluar la fatiga muscular resulta efectivo para prevenir lesiones u optimizar el rendimiento deportivo, con el fin de garantizar la salud a largo plazo al permitir ajustar la carga de entrenamiento.
 
-<img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/50d9e1e1-6145-43a0-9aa0-ca443567369c" />
+<img width="400" height="150" alt="image" src="https://github.com/user-attachments/assets/50d9e1e1-6145-43a0-9aa0-ca443567369c" />
 
 Del mismo modo, la señal electromiográfica posee mucha información para analizar, por lo que se necesita visualizar la señal en terminos de frecuencia y esto se hace aplicando la transformada de fourier, ya que transforma la señal del dominio del tiempo al dominio de la frecuencia, revelando así información oculta que puede ser relevante para un diagnostico clínico.
 
