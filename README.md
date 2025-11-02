@@ -24,6 +24,7 @@ Además de esto, se puede visualizar en la señal EMG cuando un músculo entra e
 
 <img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/50d9e1e1-6145-43a0-9aa0-ca443567369c" />
 
+Del mismo modo, la señal electromiográfica posee mucha información para analizar, por lo que se necesita visualizar la señal en terminos de frecuencia y esto se hace aplicando la transformada de fourier, ya que transforma la señal del dominio del tiempo al dominio de la frecuencia, revelando así información oculta que puede ser relevante para un diagnostico clínico.
 
 # 3. Diagramas de flujo.
 **3.1. Diagrama de flujo - Parte A:Captura de la señal emulada**
