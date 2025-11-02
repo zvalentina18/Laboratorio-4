@@ -1,6 +1,4 @@
-  # Laboratorio-4
-  hola mi gente
-  
+# Laboratorio-4
 # Señales electromiográficas EMG
 # TABLA DE CONTENIDOS
 1. Objetivos y metodología del experimento.
@@ -46,21 +44,49 @@ Seguido de esto, se hizo la segmentación de la señal para cada contracción y 
   
   <img width="442" height="218" alt="image" src="https://github.com/user-attachments/assets/df08df78-b3e6-47ad-a43f-5cf5d7e83a5a" />
 
+Frecuencia media: 96.79 Hz
+
+Frecuencia mediana: 47.62 Hz
+
 - Contracción 2:
 
 <img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/cbfb9351-7183-4eb2-85f1-c34c2268be54" />
+
+Frecuencia media: 120.74 Hz
+
+Frecuencia mediana: 60 Hz
 
 - Contracción 3:
 
 <img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/b01c49e3-0ad7-42e4-9e5b-de39808cecdc" />
 
+Frecuencia media: 114.48 Hz
+
+Frecuencia mediana: 60 Hz
+
 - Contracción 4:
 
 <img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/39ad6473-4f76-44d4-acef-b1803d29214b" />
 
+Frecuencia media: 112.38 Hz
+
+Frecuencia mediana: 60 Hz
+
 - Contracción 5:
 
 <img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/3fb5dbaa-3f9a-4300-8932-e6028fa10c0f" />
+
+Frecuencia media: 113.89 Hz
+
+Frecuencia mediana: 60 Hz
+
+| Frecuencia media (Hz) | Frecuencia mediana (Hz) |
+|---------------------- | ----------------------  |
+|        96.79          |        47.62            |
+|        120.74         |           60            |
+|        114.48         |           60            |
+|        112.38         |           60            |
+|        113.89         |           60            |
 
 
 -**Parte B** En esta sección, se capturó una señal EMG por medio de electrodos puestos sobre el músculo del antebrazo, en el que se registraron unas contracciones repetidas hasta llegar a la fatiga (o la falla), obteniendo la siguiente señal original y filtrada eliminando asi el ruido y artefactos:
