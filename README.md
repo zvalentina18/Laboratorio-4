@@ -34,3 +34,5 @@ En la parte C se implemeto un algoritmo para analizar
 # 7. Aplicaciones biomédicas.
 <img width="243" height="207" alt="image" src="https://github.com/user-attachments/assets/770ed8ef-ebbe-4e03-a7a8-3fad7ad4741a" />
 
+Las señales EMG (electromiográficas) tiene una grand importancia en el campo de la ingeniria biomédica, ya que nos permiten registrar la actividad eléctrica generada por los músculos durante cada contracción.......................................................
+
