@@ -61,6 +61,26 @@ Seguido de esto, se hizo la segmentación de la señal para cada contracción y 
 <img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/3fb5dbaa-3f9a-4300-8932-e6028fa10c0f" />
 
 
+-**Parte B** En esta sección, se capturó una señal EMG por medio de electrodos puestos sobre el músculo del antebrazo, en el que se registraron unas contracciones repetidas hasta llegar a la fatiga (o la falla), obteniendo la siguiente señal original y filtrada eliminando asi el ruido y artefactos:
+
+<img width="1438" height="674" alt="image" src="https://github.com/user-attachments/assets/400377dd-8d9c-44d6-bb2f-88015968f38d" />
+
+Seguido de esto, se dividio la señal en el número de contracciones realizadas que fueron 57, obteniendo así las siguientes señales(se mostraran algunas de las señales adquiridas):
+
+<img width="941" height="522" alt="image" src="https://github.com/user-attachments/assets/cc5692a0-3cf8-439d-9e4e-1b56fd710c17" />
+
+Luego calculamos por cada contraccioón la frecuencia media y mediana, graficando así los resultados obtenidos  y analizanqdo la tendencia de esta frecuencias a medida que progesa la fatiga muscular:
+-**Cálculos por cada contracción:**
+<img width="340" height="210" alt="image" src="https://github.com/user-attachments/assets/21f135c1-05c4-404f-80b8-f9d124c85e9e" />
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img width="340" alt="image1" src="https://github.com/user-attachments/assets/21f135c1-05c4-404f-80b8-f9d124c85e9e" />
+  <img width="340" alt="image2" src="https://github.com/user-attachments/assets/6bad026d-74e7-45b7-930f-55676e7aaa2a" />
+</div>
+
+
+
+
+
 
 # 6. Conclusiones.
 # 7. Aplicaciones biomédicas.
