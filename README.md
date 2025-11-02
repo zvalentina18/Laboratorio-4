@@ -1,4 +1,6 @@
   # Laboratorio-4
+  hola mi gente
+  
 # Señales electromiográficas EMG
 # TABLA DE CONTENIDOS
 1. Objetivos y metodología del experimento.
