@@ -46,7 +46,7 @@ Seguido de esto, se hizo la segmentación de la señal para cada contracción y 
 
 - Contracción 2:
 
-<img width="874" height="419" alt="image" src="https://github.com/user-attachments/assets/cbfb9351-7183-4eb2-85f1-c34c2268be54" />
+<img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/cbfb9351-7183-4eb2-85f1-c34c2268be54" />
 
 - Contracción 3:
 
