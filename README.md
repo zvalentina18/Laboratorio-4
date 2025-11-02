@@ -32,3 +32,5 @@ En la parte C se implemeto un algoritmo para analizar
 # 5. Análisis de resultados.
 # 6. Conclusiones.
 # 7. Aplicaciones biomédicas.
+<img width="243" height="207" alt="image" src="https://github.com/user-attachments/assets/770ed8ef-ebbe-4e03-a7a8-3fad7ad4741a" />
+
