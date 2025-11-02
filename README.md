@@ -74,6 +74,7 @@ Con base a los datos calculados, se representó graficamente la evolución de la
 <img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/8aa6677c-f54b-4579-87fb-8e9ff89f8cf9" />
 
 
+
 -**Parte B** En esta sección, se capturó una señal EMG por medio de electrodos puestos sobre el músculo del antebrazo, en el que se registraron unas contracciones repetidas hasta llegar a la fatiga (o la falla), obteniendo la siguiente señal original y filtrada eliminando asi el ruido y artefactos:
 
 <img width="1438" height="674" alt="image" src="https://github.com/user-attachments/assets/f21cb0c2-63e4-47d2-ba66-9f94189d5eea" />
