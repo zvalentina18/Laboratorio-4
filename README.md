@@ -1,4 +1,4 @@
-# Laboratorio-4
+  # Laboratorio-4
 # Señales electromiográficas EMG
 # TABLA DE CONTENIDOS
 1. Objetivos y metodología del experimento.
@@ -10,6 +10,8 @@
 7. Aplicaciones biomédicas.
 
 # 1.  Objetivos y metodología del experimento.
+La presente práctica tiene como objetivo aplicar el filtrado de señales continuas para procesar una señal electromiográfica (EMG). Además, se busca detectar la aparición de fatiga muscular meidante el análisis espectral de contracciones musculares individuales y con ello, compara el comportamiento con una señal emulada (capturada por un generador de señales biológicas) en terminos de frecuencia media y mediana. Todo eso, empleando herramientas computacionales para el procesamiento, segmentación y análisis de señales biomédicas.
+
 # 2. Marco conceptual.
 # 3. Diagramas de flujo.
 **3.1. Diagrama de flujo - Parte A:Captura de la señal emulada**
@@ -30,6 +32,36 @@ En la parte C se implemeto un algoritmo para analizar
 
 # 4. Adquisición de la señal.
 # 5. Análisis de resultados.
+
+-**Parte A**
+En primera instancia, se capturó una señal EMG ideal a través de un generador de señales biológicas, en el que se simularon aproximadamente 5 contracciones, obteniendo la siguiente señal:
+
+<img width="440" height="207" alt="image" src="https://github.com/user-attachments/assets/5841c205-355c-45bd-ba20-ff4b1cea06eb" />
+
+Seguido de esto, se hizo la segmentación de la señal para cada contracción y se calculó su frecuencia media y frecuencia mediana, en el que se obtuvo lo siguiente:
+
+- Contracción 1:
+  
+  <img width="442" height="218" alt="image" src="https://github.com/user-attachments/assets/df08df78-b3e6-47ad-a43f-5cf5d7e83a5a" />
+
+- Contracción 2:
+
+<img width="874" height="419" alt="image" src="https://github.com/user-attachments/assets/cbfb9351-7183-4eb2-85f1-c34c2268be54" />
+
+- Contracción 3:
+
+<img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/b01c49e3-0ad7-42e4-9e5b-de39808cecdc" />
+
+- Contracción 4:
+
+<img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/39ad6473-4f76-44d4-acef-b1803d29214b" />
+
+- Contracción 5:
+
+<img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/3fb5dbaa-3f9a-4300-8932-e6028fa10c0f" />
+
+
+
 # 6. Conclusiones.
 # 7. Aplicaciones biomédicas.
 <img width="243" height="207" alt="image" src="https://github.com/user-attachments/assets/770ed8ef-ebbe-4e03-a7a8-3fad7ad4741a" />
