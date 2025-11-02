@@ -63,22 +63,23 @@ Seguido de esto, se hizo la segmentación de la señal para cada contracción y 
 
 -**Parte B** En esta sección, se capturó una señal EMG por medio de electrodos puestos sobre el músculo del antebrazo, en el que se registraron unas contracciones repetidas hasta llegar a la fatiga (o la falla), obteniendo la siguiente señal original y filtrada eliminando asi el ruido y artefactos:
 
-<img width="1438" height="674" alt="image" src="https://github.com/user-attachments/assets/400377dd-8d9c-44d6-bb2f-88015968f38d" />
+<img width="1438" height="674" alt="image" src="https://github.com/user-attachments/assets/f21cb0c2-63e4-47d2-ba66-9f94189d5eea" />
 
-Seguido de esto, se dividio la señal en el número de contracciones realizadas que fueron 57, obteniendo así las siguientes señales(se mostraran algunas de las señales adquiridas):
 
-<img width="941" height="522" alt="image" src="https://github.com/user-attachments/assets/cc5692a0-3cf8-439d-9e4e-1b56fd710c17" />
+Seguido de esto, se dividio la señal en el número de contracciones realizadas que fueron 51, obteniendo así las siguientes señales(se mostraran algunas de las señales adquiridas):
+
+<img width="966" height="538" alt="image" src="https://github.com/user-attachments/assets/83b0d90b-297c-42d0-8cb6-420054f6553e" />
+
 
 Luego calculamos por cada contraccioón la frecuencia media y mediana, graficando así los resultados obtenidos  y analizanqdo la tendencia de esta frecuencias a medida que progesa la fatiga muscular:
+
 -**Cálculos por cada contracción:**
-<img width="340" height="210" alt="image" src="https://github.com/user-attachments/assets/21f135c1-05c4-404f-80b8-f9d124c85e9e" />
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img width="340" alt="image1" src="https://github.com/user-attachments/assets/21f135c1-05c4-404f-80b8-f9d124c85e9e" />
-  <img width="340" alt="image2" src="https://github.com/user-attachments/assets/6bad026d-74e7-45b7-930f-55676e7aaa2a" />
-</div>
+<img width="715" height="343" alt="image" src="https://github.com/user-attachments/assets/02e09f10-60f7-4766-8087-7d846ea7b546" />
 
 
+-**Gráfica de tendencia de las freuencias media y mediana**
 
+<img width="988" height="674" alt="image" src="https://github.com/user-attachments/assets/9634e3ea-4ca1-40bf-9eb7-7f55db31120b" />
 
 
 
@@ -86,5 +87,5 @@ Luego calculamos por cada contraccioón la frecuencia media y mediana, graficand
 # 7. Aplicaciones biomédicas.
 <img width="243" height="207" alt="image" src="https://github.com/user-attachments/assets/770ed8ef-ebbe-4e03-a7a8-3fad7ad4741a" />
 
-Las señales EMG (electromiográficas) tiene una grand importancia en el campo de la ingeniria biomédica, ya que nos permiten registrar la actividad eléctrica generada por los músculos durante cada contracción.......................................................
+Las señales EMG (electromiográficas) tiene una gran importancia en el campo de la ingeniria biomédica, ya que nos permiten registrar la actividad eléctrica generada por los músculos durante cada contracción.  En la biomédica, la emg se utiliza para poder evaluar el correcto funcionamiento del sistema  muscular y así poder  diagnosticar diversas patologías cómo las lesiones nerviosas o enfermedades de la uion neuromuscular, todo esto ayuda a diferenciar si el origen del problema es muscular o nervioso. Además, es fundamental para el control de prótesis y exesqueletos, ya que estas señales captadas en los músculos pueden utilizarse para generar movimientos en dispositivos robótico.También se emplea en el análisis de movimiento donde esto puede permitir examinar la coordinación y la fatiga muscular durante actividades físicas o deportivas. Por ende, estas señales EMG representan una herramienta muy esencial para el diagnóstico rehabilitación y el desarrollo tecnológico aplicando el al movimiento humano.
 
