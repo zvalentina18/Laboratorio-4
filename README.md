@@ -18,7 +18,12 @@ La presente práctica tiene como objetivo aplicar el filtrado de señales contin
 
 <img width="350" height="180" alt="image" src="https://github.com/user-attachments/assets/b1c75e85-1172-4f78-b4b0-8dfd5522944b" />
 
-La electromiografía (EMG) es  donde se eun procedimiento donde se evalua la salud muscular y se estudian los nervios que controlan los músculos, mediante el registro de su actividad eléctrica. A través de la señal electromiográfica, se pueden diagnosticar trastornos musculares y nerviosos, como disfunción muscular.
+La electromiografía (EMG) es un procedimiento donde se evalua la salud muscular y se estudian los nervios que controlan los músculos, mediante el registro de su actividad eléctrica, es decir la suma de todos los potenciales de acción de las unidades motoras detectadas. A través de la señal electromiográfica, se pueden diagnosticar trastornos musculares y nerviosos, como disfunción muscular.
+
+Además de esto, se puede visualizar en la señal EMG cuando un músculo entra en fátiga, donde disminuye la capacidad del musculo para generar una fuerza. Esto se puede visualizar en la señal en el aumento de la amplitud, ya que el sistema nervioso "recluta" más unidades motoras para mantener la fuerza ejercida. Del mismo modo, evaluar la fatiga muscular resulta efectivo para prevenir lesiones u optimizar el rendimiento deportivo, con el fin de garantizar la salud a largo plazo al permitir ajustar la carga de entrenamiento.
+
+<img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/50d9e1e1-6145-43a0-9aa0-ca443567369c" />
+
 
 # 3. Diagramas de flujo.
 **3.1. Diagrama de flujo - Parte A:Captura de la señal emulada**
