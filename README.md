@@ -90,6 +90,7 @@ Seguido de esto, se dividio la señal en el número de contracciones realizadas 
 Luego calculamos por cada contraccioón la frecuencia media y mediana, graficando así los resultados obtenidos  y analizanqdo la tendencia de esta frecuencias a medida que progesa la fatiga muscular:
 
 -**Cálculos por cada contracción:**
+
 <img width="715" height="343" alt="image" src="https://github.com/user-attachments/assets/02e09f10-60f7-4766-8087-7d846ea7b546" />
 
 
