@@ -38,6 +38,8 @@ En primera instancia, se capturó una señal EMG ideal a través de un generador
 
 <img width="440" height="207" alt="image" src="https://github.com/user-attachments/assets/5841c205-355c-45bd-ba20-ff4b1cea06eb" />
 
+Dicha señal, al tratarse de una señl ideal, no posee ningun tipo de ruido o comportamiento anormal. Sin embargo, para señales reales se requiere de la aplicación de filtros para poder visualizar una señal mucho más limpia.
+
 Seguido de esto, se hizo la segmentación de la señal para cada contracción y se calculó su frecuencia media y frecuencia mediana, en el que se obtuvo lo siguiente:
 
 - Contracción 1:
@@ -73,7 +75,7 @@ Con base a los datos calculados, se representó graficamente la evolución de la
 
 <img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/8aa6677c-f54b-4579-87fb-8e9ff89f8cf9" />
 
-
+Teniendo en cuenta los resultados obtenidos, se puede percibir que todas las contracciones oscilan entre un rango de frecuencias de 50 y 150 Hz, siendo valores típicos para una señal de electromiografía. Del mismo modo, se observa que la frecuencia mediana es igual luego de la segunda contracción y es por la razón de que la señal es ideal (capturada de un generador de señales biológicas). Lo mismo ocurre con la frecuencia media, con la diferencia que estos valores presentan variaciones mínimas, pero dentro de la energía útil de la señal, tal y como se había mencionado anteriormente.
 
 -**Parte B** En esta sección, se capturó una señal EMG por medio de electrodos puestos sobre el músculo del antebrazo, en el que se registraron unas contracciones repetidas hasta llegar a la fatiga (o la falla), obteniendo la siguiente señal original y filtrada eliminando asi el ruido y artefactos:
 
