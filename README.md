@@ -80,13 +80,13 @@ Frecuencia media: 113.89 Hz
 
 Frecuencia mediana: 60 Hz
 
-| Frecuencia media (Hz) | Frecuencia mediana (Hz) |
-|---------------------- | ----------------------  |
-|        96.79          |        47.62            |
-|        120.74         |           60            |
-|        114.48         |           60            |
-|        112.38         |           60            |
-|        113.89         |           60            |
+|                 |Frecuencia media (Hz) | Frecuencia mediana (Hz) |
+|-----------------|---------------------- | ----------------------  |
+|  Contracción 1  |        96.79          |        47.62            |
+|  Contracción 2  |        120.74         |           60            |
+|  Contracción 3  |        114.48         |           60            |
+|  Contracción 4  |        112.38         |           60            |
+|  Contracción 5  |        113.89         |           60            |
 
 
 -**Parte B** En esta sección, se capturó una señal EMG por medio de electrodos puestos sobre el músculo del antebrazo, en el que se registraron unas contracciones repetidas hasta llegar a la fatiga (o la falla), obteniendo la siguiente señal original y filtrada eliminando asi el ruido y artefactos:
