@@ -111,7 +111,35 @@ Luego calculamos por cada contraccioón la frecuencia media y mediana, graficand
 
 <img width="988" height="674" alt="image" src="https://github.com/user-attachments/assets/9634e3ea-4ca1-40bf-9eb7-7f55db31120b" />
 
+Al observar los valores de frecuencia media y mediana de las contracciones, se observar que ambas tienden a disminuir ligeramente a medida que avanza el esfuerzo. Esto indica la alta frecuencia en la señal EMG se reduce con el tiempo, lo cual nos permite ver con claridad la fatiga muscular.
+-**Parte c**
 
+En esa última sección se hizo el análisis espectral mediante FFT,aplicando en primera instancia la transformada de fourier en la señal:
+
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/d95916eb-7f31-4edd-9228-24d2da8e3a17" />
+Luego se aplico la transformada de fourier a cada una de las contracciones junto con una gráfica del espectro de amplitud (frecuencia vs magnitud) observando así cómo cambia el contenido de frecuncia, algunas de las gráficas tomadas son:
+
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/fc3f3683-2142-4d29-a98c-82aeaa631451" />
+Comparación de todos los espectros obtenidos:
+
+*En las primeras contracciones, se nota una mayor amplitud en frecuencias medias y altas (entre aproximadamente 50 y 150 Hz), lo que indica una mayor actividad eléctrica muscular y la participación de contracciones más rápidas.
+
+*A medida que van pasando las contracciones, las gráficas muestran una reducción progresiva de la amplitud y  frecuencias más bajas.Este desplazamiento hacia frecuencias menores hace referencia a la fatiga muscular.
+<img width="1243" height="1614" alt="image" src="https://github.com/user-attachments/assets/4d21fe4d-1c19-49bb-9a1d-3a6af9b5e248" />
+
+
+Comparación de espectros obtenidos en la primera contracción y la última:
+
+*La primera contracción (línea azul) presenta un pico espectral pronunciado (alrededor de los 60–70 Hz), lo que indica una buena sincronización y activación de fibras musculares de alta frecuencia.
+
+*La última contracción (línea roja) muestra un pico de menor amplitud y desplazado hacia frecuencias más bajas (alrededor de 40–50 Hz), estas frecuncias representan la fatiga muscular.
+<img width="1281" height="705" alt="image" src="https://github.com/user-attachments/assets/c4e2c7dc-6d4a-425d-94b9-a5bf61c61dc0" />
+
+ Se identifico la reducción del contenido de alta frecuencia asociada con la fatiga muscular, lo cual demuestra una pérdida significativa de energía en las altas frecuencias  con la fatiga muscular, en el cual disminuyó de 0.00019 en la primera contracción a 0.00001 en la última, lo que representa una reducción aproximada del 94.7%.
+ 
+-Análisis  espectral como herramienta diagnóstica en EMG:
+
+*El análisis espectral es una herramienta fundamental en electromiografía (EMG) ya que permite evaluar el comportamiento fisiológico  y las frecuencias de los músculos durante las  contracción y  de la fatiga muscular.
 
 # 6. Conclusiones.
 # 7. Aplicaciones biomédicas.
