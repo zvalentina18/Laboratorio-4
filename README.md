@@ -106,12 +106,14 @@ Luego calculamos por cada contraccioón la frecuencia media y mediana, graficand
 
 <img width="715" height="343" alt="image" src="https://github.com/user-attachments/assets/02e09f10-60f7-4766-8087-7d846ea7b546" />
 
+Al observar los valores de frecuencia media y mediana de las contracciones, se observar que ambas tienden a disminuir ligeramente a medida que avanza el esfuerzo. Esto indica la alta frecuencia en la señal EMG se reduce con el tiempo, lo cual nos permite ver con claridad la fatiga muscular.
 
 -**Gráfica de tendencia de las freuencias media y mediana**
 
 <img width="988" height="674" alt="image" src="https://github.com/user-attachments/assets/9634e3ea-4ca1-40bf-9eb7-7f55db31120b" />
 
-Al observar los valores de frecuencia media y mediana de las contracciones, se observar que ambas tienden a disminuir ligeramente a medida que avanza el esfuerzo. Esto indica la alta frecuencia en la señal EMG se reduce con el tiempo, lo cual nos permite ver con claridad la fatiga muscular.
+
+
 -**Parte c**
 
 En esa última sección se hizo el análisis espectral mediante FFT,aplicando en primera instancia la transformada de fourier en la señal:
@@ -137,8 +139,7 @@ Comparación de espectros obtenidos en la primera contracción y la última:
 
  Se identifico la reducción del contenido de alta frecuencia asociada con la fatiga muscular, lo cual demuestra una pérdida significativa de energía en las altas frecuencias  con la fatiga muscular, en el cual disminuyó de 0.00019 en la primera contracción a 0.00001 en la última, lo que representa una reducción aproximada del 94.7%.
  
--Análisis  espectral como herramienta diagnóstica en EMG:
-
+-**Análisis  espectral como herramienta diagnóstica en EMG:**
 *El análisis espectral es una herramienta fundamental en electromiografía (EMG) ya que permite evaluar el comportamiento fisiológico  y las frecuencias de los músculos durante las  contracción y  de la fatiga muscular.
 
 # 6. Conclusiones.
