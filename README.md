@@ -31,19 +31,45 @@ Del mismo modo, la señal electromiográfica posee mucha información para anali
 Se adquirio una señal EMG emulada, en primera instancia se confiduró el generador de señales para así adquirir la señal y  simular cinco contracciones musculares. 
 Se implemento un algoritmo para calcular la frecuencia media y mediana, de los cuales estos resultados arrrojados se presentaron en una tabla y gráficamente para observar la variación de las frecuencias durantes dichas contracciones.
 
+
 <img width="1280" height="960" alt="2" src="https://github.com/user-attachments/assets/8de8cd81-8bfb-44e6-b354-f799c4d0bc10" />
 
 
+
 **3.2. Diagrama de flujo - Parte B:Captura de la señal de paciente**
+
 En la parte B se implemeto un algoritmo para analizar y registrar una señal EMG obtenidas por una persona. Se añadieron electrodos en el músculo del antebrazo y se registró la señal durante contracciones repetidas hasta la fatiga. El código aplica un filtro pasa banda para poder eliminar el ruido,divide la señal en las contracciones realizadas y poder calcular la frecuencia media y mediana y finalmente analiza la relación con la fatiga muscular.
+
 <img width="1664" height="1248" alt="1" src="https://github.com/user-attachments/assets/29c04892-33d3-42c1-be99-b6263f10033d" />
 
 
 **3.3. Diagrama de flujo - Parte C:Análisis espectral mediante FFT**
-En la parte C se implemeto un algoritmo para analizar 
+
+<img width="1024" height="768" alt="Grafica Diagrama de Flujo Proceso Organico Colorido" src="https://github.com/user-attachments/assets/86740838-a247-45f7-b1a6-564e857cf1e9" />
+
+En la Parte C, se muestra el diagrama de flujo que implementa el algoritmo para el análisis espectral de la señal EMG. El proceso inicia con la importación de librerías, la carga de datos y la aplicación de un filtro pasa banda  para aislar la señal. Luego el código detecta las contracciones individuales y calcula la Transformada Rápida de Fourier  para cada una obteniendo su espectro de magnitud y frecuencia. Finalmente se hace el análisis de fatiga comparando gráficamente el espectro de la primera y la última contracción y analizando métricas clave como los picos espectrales y el contenido de alta frecuencia para cuantificar el efecto del cansancio muscular. 
 
 
 # 4. Adquisición de la señal.
+Para la captura de la señal, se colocaron electrodos en el músculo del antebrazo. La señal analógica fue acondicionada utilizando un módulo AD8232. Posteriormente, la señal fue digitalizada y adquirida por un sistema de adquisición de datos (DAQ) de National Instruments (controlado a través de la librería nidaqmx de Python), y exportada al archivo de texto para su análisis.
+Las características de la señal cargada en el script de análisis son:
+Archivo:.txt
+Frecuencia de Muestreo (fs): 1000 Hz (Detectada desde los datos del archivo)
+Músculo Medido: Antebrazo
+
+**Materiales utilizados**
+
+DAQ
+
+AD8232
+
+Cables
+
+Electrodos
+
+![imagenad8232](https://github.com/user-attachments/assets/31599700-db7e-4bff-827b-13d273a132aa)
+
+
 # 5. Análisis de resultados.
 
 -**Parte A**
@@ -76,6 +102,7 @@ Seguido de esto, se hizo la segmentación de la señal para cada contracción y 
 <img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/3fb5dbaa-3f9a-4300-8932-e6028fa10c0f" />
 
 
+
 |                 |Frecuencia media (Hz) | Frecuencia mediana (Hz) |
 |-----------------|---------------------- | ----------------------  |
 |  Contracción 1  |        96.79          |        47.62            |
@@ -84,9 +111,13 @@ Seguido de esto, se hizo la segmentación de la señal para cada contracción y 
 |  Contracción 4  |        112.38         |           60            |
 |  Contracción 5  |        113.89         |           60            |
 
+
+
 Con base a los datos calculados, se representó graficamente la evolución de las frecuencias, obteniendo:
 
+
 <img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/8aa6677c-f54b-4579-87fb-8e9ff89f8cf9" />
+
 
 Teniendo en cuenta los resultados obtenidos, se puede percibir que todas las contracciones oscilan entre un rango de frecuencias de 50 y 150 Hz, siendo valores típicos para una señal de electromiografía. Del mismo modo, se observa que la frecuencia mediana es igual luego de la segunda contracción y es por la razón de que la señal es ideal (capturada de un generador de señales biológicas). Lo mismo ocurre con la frecuencia media, con la diferencia que estos valores presentan variaciones mínimas, pero dentro de la energía útil de la señal, tal y como se había mencionado anteriormente.
 
@@ -116,25 +147,33 @@ Al observar los valores de frecuencia media y mediana de las contracciones, se o
 
 -**Parte c**
 
+
 En esa última sección se hizo el análisis espectral mediante FFT,aplicando en primera instancia la transformada de fourier en la señal:
 
+
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/d95916eb-7f31-4edd-9228-24d2da8e3a17" />
+
 Luego se aplico la transformada de fourier a cada una de las contracciones junto con una gráfica del espectro de amplitud (frecuencia vs magnitud) observando así cómo cambia el contenido de frecuncia, algunas de las gráficas tomadas son:
 
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/fc3f3683-2142-4d29-a98c-82aeaa631451" />
+
+
 Comparación de todos los espectros obtenidos:
 
-*En las primeras contracciones, se nota una mayor amplitud en frecuencias medias y altas (entre aproximadamente 50 y 150 Hz), lo que indica una mayor actividad eléctrica muscular y la participación de contracciones más rápidas.
+En las primeras contracciones, se nota una mayor amplitud en frecuencias medias y altas (entre aproximadamente 50 y 150 Hz), lo que indica una mayor actividad eléctrica muscular y la participación de contracciones más rápidas.
 
-*A medida que van pasando las contracciones, las gráficas muestran una reducción progresiva de la amplitud y  frecuencias más bajas.Este desplazamiento hacia frecuencias menores hace referencia a la fatiga muscular.
+A medida que van pasando las contracciones, las gráficas muestran una reducción progresiva de la amplitud y  frecuencias más bajas.Este desplazamiento hacia frecuencias menores hace referencia a la fatiga muscular.
+
 <img width="1243" height="1614" alt="image" src="https://github.com/user-attachments/assets/4d21fe4d-1c19-49bb-9a1d-3a6af9b5e248" />
+
 
 
 Comparación de espectros obtenidos en la primera contracción y la última:
 
-*La primera contracción (línea azul) presenta un pico espectral pronunciado (alrededor de los 60–70 Hz), lo que indica una buena sincronización y activación de fibras musculares de alta frecuencia.
+La primera contracción (línea azul) presenta un pico espectral pronunciado (alrededor de los 60–70 Hz), lo que indica una buena sincronización y activación de fibras musculares de alta frecuencia.
 
-*La última contracción (línea roja) muestra un pico de menor amplitud y desplazado hacia frecuencias más bajas (alrededor de 40–50 Hz), estas frecuncias representan la fatiga muscular.
+La última contracción (línea roja) muestra un pico de menor amplitud y desplazado hacia frecuencias más bajas (alrededor de 40–50 Hz), estas frecuncias representan la fatiga muscular.
+
 <img width="1281" height="705" alt="image" src="https://github.com/user-attachments/assets/c4e2c7dc-6d4a-425d-94b9-a5bf61c61dc0" />
 
  Se identifico la reducción del contenido de alta frecuencia asociada con la fatiga muscular, lo cual demuestra una pérdida significativa de energía en las altas frecuencias  con la fatiga muscular, en el cual disminuyó de 0.00019 en la primera contracción a 0.00001 en la última, lo que representa una reducción aproximada del 94.7%.
@@ -143,6 +182,15 @@ Comparación de espectros obtenidos en la primera contracción y la última:
 *El análisis espectral es una herramienta fundamental en electromiografía (EMG) ya que permite evaluar el comportamiento fisiológico  y las frecuencias de los músculos durante las  contracción y  de la fatiga muscular.
 
 # 6. Conclusiones.
+La aplicación de un filtro pasa banda Butterworth (20-450 Hz) fue una etapa de preprocesamiento muy importante. Como se observa en las gráficas de la Parte B el filtro eliminó eficazmente el ruido de baja frecuencia  y los artefactos de alta frecuencia de la señal real permitiendo un análisis espectral más preciso.
+
+Se demostró  que la fatiga muscular puede ser detectada y cuantificada mediante el análisis espectral de la señal EMG. A medida quese realizo las contracciones repetidas hasta la fatiga (51 contracciones), se observó una clara tendencia a la baja tanto en la frecuencia media como en la frecuencia mediana. Este hallazgo es consistente con la teoría fisiológica de la fatiga muscular.
+
+El análisis mediante la Transformada Rápida de Fourier confirmó visual y cuantitativamente el fenómeno de la fatiga. Se observo una compresión del espectro de potencia hacia frecuencias más bajas a medida que avanzaba el experimento. Las primeras contracciones mostraron picos de energía en frecuencias más altas aproximadamente 60-70 Hz mientras que las contracciones finales como la 51 mostraron un claro desplazamiento de este pico de energía hacia frecuencias menores aproximadamente 40-50 Hz además de una reducción significativa en la amplitud espectral.
+
+Tambien se encuentra que en la  frecuencia media y la frecuencia mediana son indicadores robustos y fiables para monitorear la fatiga muscular. La disminución progresiva de estos dos parámetros está directamente correlacionada con el agotamiento de las fibras musculares de contracción rápida y el reclutamiento de unidades motoras que operan a frecuencias más bajas.
+
+La comparación entre la Parte A señal ideal y la Parte B señal real fue fundamental. La señal ideal del generador mantuvo parámetros de frecuencia estables notablemente la frecuencia mediana constante en 60 Hz tras la segunda contracción, lo cual era esperado de una simulación. En contraste, la señal biológica real mostró la variabilidad y la tendencia descendente característica de un proceso fisiológico dinámico, validando el montaje experimental para capturar fenómenos reales.
 # 7. Aplicaciones biomédicas.
 <img width="243" height="207" alt="image" src="https://github.com/user-attachments/assets/770ed8ef-ebbe-4e03-a7a8-3fad7ad4741a" />
 
